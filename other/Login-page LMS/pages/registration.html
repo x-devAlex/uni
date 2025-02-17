@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/assets/images/site-logo.png" type="image/x-icon">
+    </head>
+    <body class="body">
+        <div class="login-page">
+
+            <header class="header">
+                <div class ="header-items"></div>
+                <img class="logo" src="/assets/images/site-logo.png" alt="OpenLMS Logo" />
+                <div class="open-lms">OpenLMS</div>
+            </header>
+
+            <div class="form-title">
+                <h2>Реєстрація</h2>
+            </div>            
+
+            <div class="login-form">
+                
+                <!-- Персональний ID -->
+                <div class="input-field">
+                    <label for="personalId" class="email">Персональний ID</label>
+                    <input 
+                        type="text" 
+                        id="personalId" 
+                        class="input" 
+                        placeholder="Введіть ID виданий адміністрацією"
+                    >
+                </div>
+
+                <!-- Email -->
+                <div class="input-field">
+                    <label for="email" class="email">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        class="input" 
+                        placeholder="Введіть ел. адресу"
+                    >
+                </div>
+
+                <!-- Пароль -->
+                <div class="input-field">
+                    <label for="password" class="div2">Пароль</label>
+                    <div class="password-wrapper">
+                        <input 
+                            type="password" 
+                            id="password" 
+                            class="input" 
+                            placeholder="Введіть пароль"
+                        >
+                        <button type="button" id="togglePassword" class="toggle-password">👁</button>
+                    </div>
+                </div>
+
+                <!-- Повторіть пароль -->
+                <div class="input-field">
+                    <label for="confirmPassword" class="div2">Повторіть пароль</label>
+                    <div class="password-wrapper">
+                        <input 
+                            type="password" 
+                            id="confirmPassword" 
+                            class="input" 
+                            placeholder="Повторіть пароль"
+                        >
+                        <button type="button" id="togglePasswordConfirm" class="toggle-password">👁</button>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button type="submit" class="button">
+                        <span class="button2">Зареєструватися</span>
+                    </button>
+                </div>
+
+                <div class="text-link">
+                    <a href="" class="text-preview">Вже маєте акаунт?</a>
+                    <a href="/index.html" class="div3">Увійти</a>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <div class="nav-bar"></div>
+                <div class="tab">
+                    <div class="label">OpenLMS © 2025</div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="/assets/js/script.js"></script>
+
+    </body>
+</html>
