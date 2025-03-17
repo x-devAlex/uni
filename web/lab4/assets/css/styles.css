@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.content-section {
+    padding: 4rem 0;
+}
+
+.carousel-item img {
+    max-height: 25rem;
+    object-fit: scale-down;
+    border-radius: 0.6rem;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+#about {
+    background-image: url(/assets/images/tech.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+}
+
+#about h1, #about p {
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.25rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+#about p {
+    text-align: left;
+}
+
+#schedule {
+    background-color: #e9ecef;
+}
+
+#register {
+    background-color: #e9ecef;
+}
+
+#schedule .text-center {
+    text-align: left !important;
+}
+
+
+#gallery {
+    background-color: #f8f9fa;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+/*Медіа-запити*/
+@media (max-width: 768px) {
+    .content-section {
+        padding: 2rem 0;
+    }
+
+    .carousel-item img {
+        max-height: 15rem;
+    }
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    #about p {
+        text-align: center;
+    }
+
+    #schedule .text-center {
+        text-align: center !important;
+    }
+
+    .col-md-4 {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    .carousel-item img {
+        max-height: 10rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .col-md-4 {
+        margin-bottom: 1.5rem;
+    }
+}
