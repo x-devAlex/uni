@@ -1,0 +1,50 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#order {
+  flex: 2;
+  margin-right: 15px;
+}
+
+#menu {
+  flex: 1;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.mb-3 {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 14px;
+  padding: 8px;
+}
